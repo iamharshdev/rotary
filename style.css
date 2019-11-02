@@ -4,7 +4,7 @@
     --main-color:#0033A0;
     }
 
-button[type="button"]{
+.hehe{
     border:none;
     border-radius: 5px;
     color:#fff;
@@ -18,7 +18,7 @@ button[type="button"]{
     transition:.4s all ease-in-out;
 }
 
-button[type="button"]:hover{
+.hehe:hover{
     color:var(--main-color);
     border:2px solid var(--main-color);
     background:transparent ;
@@ -53,7 +53,7 @@ color: #000000;
     font-family: 'Poppins','sans-serif';
 }
 
-.home span{color:var(--main-color);;}
+.home span{color:var(--main-color);}
 
 
 .illustration_header img{

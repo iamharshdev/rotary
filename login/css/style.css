@@ -4,6 +4,70 @@
 --main-color:#0033A0;
 }
 
+@media (max-width: 575.98px) {
+    input[type="submit"]{
+        margin-left:0rem;
+    }
+
+    input[type="email"]{
+        width: 90%;
+    }
+    
+    input[type="email"]:focus{
+        width: calc(80% + 2px);
+    }
+    
+    
+    input[type="password"]{
+        width: 90%;
+    }
+    
+    input[type="password"]:focus{
+        width: calc(80% + 2px);
+    }
+
+    }
+    @media (max-width: 769px) {input[type="submit"]{
+        margin-left:0rem;
+    }
+
+    input[type="email"]{
+        width: 90%;
+    }
+    
+    input[type="email"]:focus{
+        width: calc(80% + 2px);
+    }
+    
+    
+    input[type="password"]{
+        width: 90%;
+    }
+    
+    input[type="password"]:focus{
+        width: calc(80% + 2px);
+    }}
+    @media (max-width: 991.98px) { input[type="submit"]{
+        margin-left:0rem;
+    }
+
+    input[type="email"]{
+        width: 100%;
+    }
+    
+    input[type="email"]:focus{
+        width: calc(90% + 2px);
+    }
+    
+    
+    input[type="password"]{
+        width: 100%;
+    }
+    
+    input[type="password"]:focus{
+        width: calc(90% + 2px);
+    }}
+
 input[type="submit"]{
     width:25%;
     border: 2px solid var(--main-color);
