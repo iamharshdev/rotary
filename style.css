@@ -110,12 +110,14 @@ padding-bottom: 2rem;
 .what-we-do{
     margin-bottom: 5rem;
     margin-top: 10rem;
-    background: url('img/what-we-can/What\ we\ can\ do.svg');
-    background-position: right;
     margin-right: 2rem;
-    background-repeat: no-repeat;
-    background-size:contain;
-}      
+}     
+
+.what-we-do img{
+    max-width:120%;
+    text-align: center;
+    margin-top:2rem;
+}
 
 .what-we-can{
     color:#000;
