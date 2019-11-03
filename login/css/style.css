@@ -9,6 +9,8 @@
         margin-left:0rem;
     }
 
+
+
     input[type="email"]{
         width: 90%;
     }
@@ -26,10 +28,18 @@
         width: calc(80% + 2px);
     }
 
+    .form-title{
+       margin:0 auto;
+    }
+
     }
     @media (max-width: 769px) {input[type="submit"]{
         margin-left:0rem;
     }
+
+    .form-title{
+        margin:0 auto;
+     }
 
     input[type="email"]{
         width: 90%;
@@ -50,7 +60,10 @@
     @media (max-width: 991.98px) { input[type="submit"]{
         margin-left:0rem;
     }
-
+    
+.form-title{
+       text-align: center;
+    }
     input[type="email"]{
         width: 100%;
     }
