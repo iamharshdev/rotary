@@ -2,7 +2,10 @@
 
 :root{
     --main-color:#0033A0;
+    
     }
+
+    body{font-family: 'Poppins','sans-serif';}
 
 .hehe{
     border:none;
@@ -106,7 +109,7 @@ padding-bottom: 2rem;
         transition: .2s all ease-in-out;
         color: blue;
       }
-
+/* 
 .what-we-do{
     margin-bottom: 5rem;
     margin-top: 10rem;
@@ -144,7 +147,7 @@ padding-bottom: 2rem;
     max-width:40px;
     text-align: center;
     margin: 0 auto;
-}
+} */
 
 .what-heading{
     color:black;
@@ -194,6 +197,7 @@ margin-bottom: 3rem;
     margin-bottom: 5rem;
     margin-top:0rem;
     padding-top:5rem;
+    transition:.4s all ease-in-out;
     padding-bottom: 9rem;
     background: url('./img/our-team/our\ team.svg');
     background-position: center;
@@ -206,7 +210,7 @@ margin-bottom: 3rem;
     height: 340px;
     border-radius:1rem;
     box-shadow: 0px 15px 30px rgba(0, 51, 160, 0.305);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     transition:.4s all ease-in-out;
 }
 
@@ -215,5 +219,125 @@ margin-bottom: 3rem;
         -o-transition: all 0.4s;
         -moz-transition: all 0.4s;
         transition: all 0.4s; 
+        margin-bottom: 2rem;
     transform: scale(1.07);  
 }
+
+.gallery-landscape{
+    margin-top: 7rem;
+}
+
+.gallery-landscape img{
+    width:450px;
+    height:100%;
+    border-radius:1rem;
+    box-shadow: 0px 15px 30px rgba(0, 51, 160, 0.305);
+    transition:.4s all ease-in-out;
+}
+
+.gallery-landscape img:hover{
+    -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s; 
+    transform: scale(1.07);  
+}
+
+.gt{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    }
+
+.gt-2{
+    text-align: center;
+    margin-bottom: 8rem;
+}  
+
+.gallery-portrait{
+    margin-top: 7rem;
+}
+
+.gallery-portrait img{
+    width:100%;
+    height: 500px;
+    border-radius:1rem;
+    box-shadow: 0px 15px 30px rgba(0, 51, 160, 0.305);
+    transition:.4s all ease-in-out;
+}
+
+.gallery-portrait img:hover{
+    -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s; 
+    transform: scale(1.07);  
+}
+
+.footer-links-tab{
+    text-align: center;
+    margin: 0 auto;
+    padding-top:4rem;
+    }
+    
+    .footer-links-tab ul li{
+        display: inline-block;
+        padding-right:3rem;
+    }
+
+    .footer-links-tab ul li a{
+        color:white;
+        text-decoration: none;
+    }
+
+    .footer-links-tab ul li a:hover{
+    color: #fff;
+    text-decoration: underline;
+    }
+
+.rotary-logo-footer{
+    padding-top: 3rem;
+}    
+
+.mem-about{
+    background: #fff;
+    width: 240px;
+    padding: .7rem;
+    text-align: left;
+    color:#000;
+    border-radius: 1rem;
+    transition:.4s all ease-in-out;
+    display: inline-block;
+}
+
+.mem-about:hover{box-shadow: 0px 15px 30px rgba(0, 51, 160, 0.305);    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s; }
+
+.linkdin{
+    display: inline-block;
+    padding-left:2.7rem;
+    transition:.4s all ease-in-out;
+}
+
+.linkdin:hover{
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s; 
+transform: scale(0.8); 
+}
+
+.mem-about img{
+    max-width:40px;
+}
+
+.name{
+    display: inline-block;
+    padding-left:1.2rem;
+    font-size: 1.3rem;
+}
+
+
+
