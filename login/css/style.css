@@ -155,6 +155,7 @@ input[type="password"]:focus{
     font-weight: 600;
     margin-left: 1rem;
     margin-bottom:3rem ;
+    margin-top:2rem;
     font-family: 'Poppins','sans-serif';
 }
 
