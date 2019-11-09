@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 :root{
-    --main-color:#0033A0;
-    }
+--main-color:#0033A0;
+}
 
-    body{font-family: 'Poppins','sans-serif';}
+body{font-family: 'Poppins','sans-serif';}
+
+html{
+    scroll-behavior: smooth;
+}
 
 .hehe{
     border:none;
