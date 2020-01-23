@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 :root{
---main-color:#0033A0;
+--main-color:rgb(0, 51, 160);
 }
 
 body{font-family: 'Poppins','sans-serif';}
@@ -360,3 +360,12 @@ transform: scale(0.8);
     border-bottom: none;
 }
 
+.navbar-dark .navbar-toggler {
+    color: var(--main-color);
+border-color:
+var(--main-color);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(0, 51, 160)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
