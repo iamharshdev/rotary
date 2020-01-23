@@ -40,6 +40,16 @@ html{
     background:var(--main-color);
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--main-color);
+}
+
+.navbar-dark .navbar-nav .active .nav-link{
+    color: var(--main-color);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{color:var(--main-color);}
+
 .header-1{
 font-family: 'Poppins','sans-serif';
 font-weight: 600;
@@ -342,5 +352,11 @@ transform: scale(0.8);
     font-size: 1.3rem;
 }
 
+.dropdown-item{
+    border-bottom:1.5px solid #000;
+}
 
+.dropdown-item:last-child{
+    border-bottom: none;
+}
 
