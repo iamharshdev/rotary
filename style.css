@@ -44,6 +44,10 @@ html{
     color: var(--main-color);
 }
 
+.navbar-dark {
+  background: #fff;
+}
+
 .navbar-dark .navbar-nav .active .nav-link{
     color: var(--main-color);
 }
@@ -236,6 +240,7 @@ header {
   height:80vh;
   min-height: 25rem;
   width: 100%;
+  margin-top:3rem;
   overflow: hidden;
 }
 
