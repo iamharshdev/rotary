@@ -48,3 +48,36 @@
     text-align: center;
     margin-top: 4rem;
 }
+
+.table-section-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    color: #fff;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.donate-table{
+    background-color: #0c273e;
+    color: #000;
+}
+
+.card-body{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.blue{
+    background-color:#019fcb ;
+}
+
+.cyan{
+    background-color: #01a2a2;
+}
+
+.violet{
+    background-color: #963a86;
+}
