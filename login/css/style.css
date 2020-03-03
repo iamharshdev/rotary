@@ -166,28 +166,18 @@ input[type="password"]:focus{
     font-family: 'Poppins','sans-serif';
 }
 
-.sign-up-text{
-    width:25%;
-    border: 2px solid var(--main-color);
-    border-radius: 3px;
+.forgot-text{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
     font-family: 'Poppins','sans-serif';
-    background: #fff;
-    color: var(--main-color);
-    margin-left:1rem;
-    padding:.6rem;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
+    color:var(--main-color);
 }
 
-.sign-up-text:hover{
-    color:#fff;
-    background: var(--main-color);
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
+.sign-up-text{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-family: 'Poppins','sans-serif';
+    color:var(--main-color);
 }
-
-
