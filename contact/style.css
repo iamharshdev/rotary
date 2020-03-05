@@ -104,3 +104,17 @@ textarea:focus{
     -moz-transition: all 0.4s;
     transition: all 0.4s;
 }
+
+@media (max-width: 769px) {
+    input[type="submit"]{
+        width: 50%;
+    }
+
+    .contact-1{
+        color:var(--main-color);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

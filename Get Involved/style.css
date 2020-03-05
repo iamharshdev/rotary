@@ -106,3 +106,28 @@
 .violet{
     background-color: #963a86;
 }
+
+@media (max-width: 769px) {
+    .make-donation-text {
+        font-size: 2rem;
+    }
+
+
+.table-section-text{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    color: #fff;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+ .donation-table-imgs img{
+     max-width: 100%;
+     margin-bottom: 3rem;
+     text-align: center;
+ }
+    
+}
